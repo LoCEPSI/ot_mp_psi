@@ -1,0 +1,26 @@
+# C++ files
+*.o
+*.out
+*.
+
+# Executables under ./bin directory
+bin/*
+
+# Python files
+__pycache__/
+*.pyc
+
+# Generated files
+*.txt
+*.json
+
+# Visual Studio Code files
+.vscode/
+
+# CLion files
+.idea/
+cmake-build-debug/
+cmake-build-release/
+
+# macOS files
+.DS_Store
