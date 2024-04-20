@@ -58,12 +58,26 @@ To run a single experiment after setting up and building your project, execute t
 sh tools/run.sh
 ```
 
-## Running Benchmarks
+### Running Benchmarks
 
 To execute a series of benchmarks to evaluate the performance of the system, use the following command:
 
 ```bash
-sh tools/benchmark/run_benchmark.sh
+sh tools/benchmark/benchmark.sh
+```
+
+### Benchmarking Over Different Parameters
+
+Our project supports benchmarking over a variety of parameters to assess performance differences. This process can be easily managed through a custom script.
+
+
+1. **Customize the Benchmark script**: Write your own script or modify our example to fit your needs. An example script can be found under `tools/benchmark/run_benchmark.sh`. This script illustrates how to set up and run benchmarks with different configurations.
+
+
+2. **Execute the Script**: To run the benchmark, navigate to the script's directory and execute it:
+
+```bash
+   sh tools/benchmark/run_benchmark.sh
 ```
 
 ## Contact
