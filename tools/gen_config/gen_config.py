@@ -12,7 +12,7 @@ parser.add_argument(
     "--set_size",
     type=int,
     help="The size of the set",
-    default= 64
+    default= 16
 )
 parser.add_argument(
     "--false_positive_rate",
@@ -24,13 +24,13 @@ parser.add_argument(
     "--number_of_parties",
     type=int,
     help="The number of parties",
-    default=16
+    default=5
 )
 parser.add_argument(
     "--intersection_threshold",
     type=int,
     help="The intersection threshold",
-    default=10
+    default=3
 )
 parser.add_argument(
     "--benchmark_rounds",

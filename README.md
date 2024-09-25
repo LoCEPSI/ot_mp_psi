@@ -41,10 +41,10 @@ python ./tools/gen_config/gen_config.py
 
 Below are the command-line arguments you can use with the `gen_config.py` script to customize the setup of your experiment:
 
-- `--set_size`: Size of the set (default: 64)
+- `--set_size`: Size of the set (default: 16)
 - `--false_positive_rate`: False positive rate (default: 10)
-- `--number_of_parties`: Number of parties involved in the set intersection (default: 16)
-- `--intersection_threshold`: Minimum number of parties agreeing for an item to be in the intersection (default: 10)
+- `--number_of_parties`: Number of parties involved in the set intersection (default: 5)
+- `--intersection_threshold`: Minimum number of parties agreeing for an item to be in the intersection (default: 3)
 - `--benchmark_rounds`: Number of rounds to run the benchmark (default: 5)
 - `--concurrency_level`: Number of threads for each party (default: 1)
 - `--server_port`: Starting server port (default: 20081)
